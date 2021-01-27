@@ -1,0 +1,145 @@
+html {
+
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+/* Navigation */
+.navbar {
+    background-color: #343a40;
+    opacity: 0.9;
+}
+
+.navbar .nav-link {
+
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.navbar .nav-link.active {
+    border-left: 3px solid #444;
+}
+
+
+/* Slider */
+
+
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background: url('../img/image1.jpg');
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: url('../img/image2.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background: url('../img/image3.jpg');
+    background-size: cover;
+}
+
+
+
+/* Home Heading*/
+#home-heading {
+    position: relative;
+    background: url("../img/lights.jpg");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#home-heading .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7)
+}
+
+#video-play {
+    position: relative;
+    background: url("../img/media.jpg");
+    background-position: 0 -300px;
+    min-height: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#video-play a {
+    color: #fff;
+}
+
+#video-play .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7)
+}
+
+
+/* Footer */
+
+#main-footer {
+    background: #000;
+}
+
+
+
+
+/* ABOUT HTML */
+
+#about-header {
+    position: relative;
+    background: url("../img/image1.jpg");
+    min-height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#about-header .dark-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.about-img {
+    margin-top: -50px;
+}
+
+/* SERVICES */
+
+#faq .card {
+    border: #444;
+    background: #333;
+}
+
+
+/* Blog */
+.my-img{
+width: 100%;
+}
+
+@media(max-width: 768px) {
+    .my-box {
+        margin-bottom: 1rem;
+    }
+
+
+}
